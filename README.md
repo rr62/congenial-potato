@@ -17,3 +17,14 @@ You should create one R script called run_analysis.R that does the following.
 4.	Appropriately labels the data set with descriptive variable names.
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+
+## Approach
+
+The data  is presented in six different files. Th requirements state that we need only mean and sd variables. The main measurement files have many variables are not needed. So the approach taken here does not even the read those variables. 
+
+1. Identify all needed variables
+2. Read the needed variables for training and testing.
+3. Combine the variables for training and testing.
+4. Combing both training and testing observartions.
+5. Create a tidy data set containing the averages of each variable for each activity and each subject
+6. Output the tidy data set
