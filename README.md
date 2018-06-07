@@ -1,15 +1,15 @@
-# Getting and Cleaning Data Course Project
+# Human Activity Recognition from Wearable Computing Data
 
 ## Summary of the Analysis 
 
 The data  is presented in six different files. Since we need only the mean and SD values, we do not need hundreds of variables from the  main measurement files. So we identify the needed variables upfront and read only those neded varibles.  The steps are as follows:
 
-1. Identify all needed variables
+1. Read acitvtities and features, and identify all the needed variables.
 2. Read the needed variables for training and testing.
 3. Combine the variables for training and testing.
-4. Combing both training and testing observartions.
-5. Create a tidy data set containing the averages of each variable for each activity and each subject
-6. Output the tidy data set
+4. Combine both training and testing observations.
+5. Create a tidy data set containing the averages of each variable for each activity and each subject.
+6. Output the tidy data set.
 
 ## Files
 
